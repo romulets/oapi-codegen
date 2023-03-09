@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/deepmap/oapi-codegen/examples/petstore-expanded/echo/api"
-	"github.com/deepmap/oapi-codegen/pkg/middleware"
 	"github.com/labstack/echo/v4"
 	echomiddleware "github.com/labstack/echo/v4/middleware"
+	"github.com/romulets/oapi-codegen/examples/petstore-expanded/echo/api"
+	"github.com/romulets/oapi-codegen/pkg/middleware"
 )
 
 func main() {
